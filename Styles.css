@@ -1,1 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+}
 
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #d5e0ee;
+  font-size: 15px;
+}
+
+#container{
+  background: #fff;
+  width: 275px;
+  height: 425px;
+  border-radius: 25px;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#qr-code{
+  width: 90%;
+  height: 90%;
+  border-radius: 8px;
+  
+}
+
+#text-container{
+  text-align: center;
+}
+
+#text-container h2{
+  font-weight: bold;
+}
+
+#text-container p{
+  color: #9999a1;
+}
